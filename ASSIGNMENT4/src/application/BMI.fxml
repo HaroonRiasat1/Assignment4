@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="359.0" prefWidth="364.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BMICALCULATOR">
+   <children>
+      <AnchorPane layoutX="-164.0" layoutY="-116.0" prefHeight="139.0" prefWidth="234.0" />
+      <Label layoutX="6.0" layoutY="147.0" prefHeight="22.0" prefWidth="136.0" text="Enter Weight kg">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.15282651782035828" blue="0.15282651782035828" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15960000455379486" green="0.5437913537025452" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="211.0" prefHeight="22.0" prefWidth="129.0" text="Enter Height m">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.15282651782035828" blue="0.15282651782035828" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15960000455379486" green="0.5437913537025452" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="6.0" />
+      <Label layoutX="132.0" layoutY="12.0" prefHeight="22.0" prefWidth="122.0" text="BMI Calculator">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.15282651782035828" blue="0.15282651782035828" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15960000455379486" green="0.5437913537025452" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="140.0" layoutY="281.0" mnemonicParsing="false" onAction="#calculate" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: GREEN;" text="Calculate">
+         <font>
+            <Font name="Britannic Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txt" layoutX="132.0" layoutY="76.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="6.0" layoutY="78.0" prefHeight="18.0" prefWidth="99.0" text="BMI">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.15282651782035828" blue="0.15282651782035828" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15960000455379486" green="0.5437913537025452" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="weight" layoutX="168.0" layoutY="145.0" />
+      <TextField fx:id="height" layoutX="168.0" layoutY="209.0" />
+      <Line endX="259.0000305175781" layoutX="105.0" layoutY="134.0" startX="-100.0" stroke="#e7e2e2" />
+      <Button fx:id="Menu" layoutX="159.0" layoutY="320.0" mnemonicParsing="false" onAction="#BacktoMenu" text="MENU">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2631579041481018" green="0.22807016968727112" blue="0.22807016968727112" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8100000023841858" green="0.06480000168085098" blue="0.5290511250495911" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="359.0" prefWidth="364.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CurrencyController">
+   <children>
+      <AnchorPane layoutX="-164.0" layoutY="-116.0" prefHeight="139.0" prefWidth="234.0" />
+      <Label layoutX="168.0" layoutY="6.0" />
+      <Label layoutX="103.0" layoutY="12.0" prefHeight="22.0" prefWidth="158.0" text="Currency Converter">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.15282651782035828" blue="0.15282651782035828" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15960000455379486" green="0.5437913537025452" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt1" layoutX="174.0" layoutY="145.0" prefHeight="26.0" prefWidth="158.0" />
+      <Label fx:id="tx1" layoutX="32.0" layoutY="147.0" prefHeight="22.0" prefWidth="131.0" text="Amount in PKR">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.15282651782035828" blue="0.15282651782035828" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15960000455379486" green="0.5437913537025452" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="Menu" layoutX="169.0" layoutY="332.0" mnemonicParsing="false" onAction="#BacktoMenu" text="Menu">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2631579041481018" green="0.22807016968727112" blue="0.22807016968727112" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8100000023841858" green="0.06480000168085098" blue="0.5290511250495911" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Line endX="196.00003051757812" endY="7.62939453125E-6" layoutX="169.0" layoutY="129.0" startX="-168.00003051757812" startY="7.62939453125E-6" stroke="#e7dede" strokeWidth="5.0" />
+      <Button layoutX="14.0" layoutY="193.0" mnemonicParsing="false" onAction="#Dollar" prefHeight="44.0" prefWidth="94.0" text="USD" />
+      <Button layoutX="135.0" layoutY="193.0" mnemonicParsing="false" onAction="#Euro" prefHeight="44.0" prefWidth="94.0" text="Euro" />
+      <Button layoutX="243.0" layoutY="193.0" mnemonicParsing="false" onAction="#Inr" prefHeight="44.0" prefWidth="94.0" text="INR" />
+      <TextField fx:id="txt" layoutX="168.0" layoutY="80.0" prefHeight="26.0" prefWidth="158.0" />
+      <Label fx:id="tx11" layoutX="26.0" layoutY="82.0" prefHeight="22.0" prefWidth="131.0" text="Converted ">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8421052694320679" green="0.15282651782035828" blue="0.15282651782035828" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.15960000455379486" green="0.5437913537025452" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onAction="#AED" prefHeight="44.0" prefWidth="94.0" text="AED" />
+      <Button layoutX="136.0" layoutY="251.0" mnemonicParsing="false" onAction="#Pound" prefHeight="44.0" prefWidth="94.0" text="Pound" />
+      <Button layoutX="243.0" layoutY="251.0" mnemonicParsing="false" onAction="#TRY" prefHeight="44.0" prefWidth="94.0" text="TRY" />
+   </children>
+</AnchorPane>

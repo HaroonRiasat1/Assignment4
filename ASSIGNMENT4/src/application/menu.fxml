@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scenecontroller">
+   <children>
+      <AnchorPane layoutX="-61.0" prefHeight="500.0" prefWidth="583.0" style="-fx-background-color: BLACK;">
+         <children>
+            <Button fx:id="btnscene1" layoutX="88.0" layoutY="158.0" mnemonicParsing="false" onAction="#calculator" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: WHITE;" text="Calculator">
+               <textFill>
+                  <RadialGradient centerX="0.4691630039971305" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.14018380641937256" green="0.024000000208616257" blue="0.47999998927116394" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill></Button>
+            <Label layoutX="205.0" layoutY="46.0" prefHeight="20.0" prefWidth="257.0" text="WELCOME TO JAVAFX CALCULATOR">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="14.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.4691630039971305" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Button fx:id="btnscene2" layoutX="266.0" layoutY="158.0" mnemonicParsing="false" onAction="#Agecalculator" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: WHITE;" text="Age Calculator">
+               <textFill>
+                  <RadialGradient centerX="0.4691630039971305" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.14018380641937256" green="0.024000000208616257" blue="0.47999998927116394" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill></Button>
+            <Button layoutX="432.0" layoutY="158.0" mnemonicParsing="false" onAction="#CurrencyCalculator" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: WHITE;" text="Currency Converter">
+               <textFill>
+                  <RadialGradient centerX="0.4691630039971305" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.14018380641937256" green="0.024000000208616257" blue="0.47999998927116394" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill></Button>
+            <Button layoutX="88.0" layoutY="261.0" mnemonicParsing="false" onAction="#BMIcalculator" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: WHITE;" text="BMI Calculator">
+               <textFill>
+                  <RadialGradient centerX="0.4691630039971305" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.14018380641937256" green="0.024000000208616257" blue="0.47999998927116394" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill></Button>
+            <Button layoutX="272.0" layoutY="261.0" mnemonicParsing="false" onAction="#Discountcalculator" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: WHITE;" text="Discount Calculator">
+               <textFill>
+                  <RadialGradient centerX="0.4691630039971305" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.14018380641937256" green="0.024000000208616257" blue="0.47999998927116394" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill></Button>
+            <Button layoutX="432.0" layoutY="261.0" mnemonicParsing="false" onAction="#Investmentcalculator" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: WHITE;" text="Investment Calculator">
+               <textFill>
+                  <RadialGradient centerX="0.4691630039971305" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.15171930193901062" green="0.49473685026168823" blue="0.06596491485834122" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.14018380641937256" green="0.024000000208616257" blue="0.47999998927116394" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill></Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
